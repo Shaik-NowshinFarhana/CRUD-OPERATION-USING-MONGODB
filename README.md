@@ -53,3 +53,11 @@ You can launch the frontend in two ways:
 
 🎉 Your CRUD application is now up and running! 🚀
 
+## 📸 Output Screenshots
+
+### ✅ Backend Running Successfully
+![Backend Output](images/backend-output.png)
+
+### 🎨 Frontend Interface
+![Frontend UI](images/frontend-ui.png)
+
