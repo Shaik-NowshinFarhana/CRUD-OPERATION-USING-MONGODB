@@ -59,5 +59,5 @@ You can launch the frontend in two ways:
 ![Backend Output](images/backend-output.png)
 
 ### 🎨 Frontend Interface
-![Frontend UI](images/frontend-ui.png)
+![Frontend UI](task3.jpeg)
 
