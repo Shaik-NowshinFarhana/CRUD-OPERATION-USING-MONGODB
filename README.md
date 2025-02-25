@@ -1,22 +1,22 @@
-# CRUD Operation Using MongoDB
+# 🚀 CRUD Operation Using MongoDB
 
-## Project Structure
+## 📁 Project Structure
 ```
 Crud_operation/
 │-- frontend/
-|----------index.hmtl
-|----------styles.css
-|----------sccript.js
+|---------- index.html
+|---------- styles.css
+|---------- script.js
 │-- backend/
-|------/nodemodules
-|------/server.js
-|------/modules/
-|--------/item.js
-|-----/package.json
-|-----/package-lock.json
+|------ /nodemodules
+|------ server.js
+|------ /modules/
+|-------- item.js
+|------ package.json
+|------ package-lock.json
 ```
 
-## Backend Setup
+## 🔧 Backend Setup
 1. Navigate to the `backend` folder and initialize a Node.js project:
    ```sh
    npm install
@@ -31,25 +31,25 @@ Crud_operation/
    npm list --depth=0
    ```
 
-## Running the Backend Server
+## 🚀 Running the Backend Server
 To start the backend server, navigate to the `backend` folder and run:
 ```sh
 node server.js
 ```
 If successful, it will display:
 ```
-Localhost running on PORT
-MongoDB connected
+✅ Localhost running on PORT
+✅ MongoDB connected
 ```
 
-## Frontend Setup
+## 🎨 Frontend Setup
 You can launch the frontend in two ways:
-1. Using Live Server in VS Code (Recommended)
+1. Using **Live Server** in VS Code (Recommended)
 2. Using Python's built-in HTTP server:
    ```sh
    cd frontend
    python -m http.server 5500
    ```
 
-Your CRUD application should now be up and running!
+🎉 Your CRUD application is now up and running! 🚀
 
