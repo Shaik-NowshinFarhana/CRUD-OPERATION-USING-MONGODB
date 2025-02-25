@@ -56,8 +56,8 @@ You can launch the frontend in two ways:
 ## 📸 Output Screenshots
 
 ### ✅ Backend Running Successfully
-![Backend Output](images/backend-output.png)
+![Backend Output](CRUD_OPERATIONS/images/backenddoutput.jpg)
 
 ### 🎨 Frontend Interface
-![Frontend UI](task3.jpeg)
+![Frontend UI](CRUD_OPERATIONS/images/frontend_output.jpg)
 
