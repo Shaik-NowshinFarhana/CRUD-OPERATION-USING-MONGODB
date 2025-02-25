@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Section Styles */
+.section {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+/* Unique Colors for Sections */
+.create {
+    background: rgba(46, 204, 113, 0.3);
+}
+
+.read {
+    background: rgba(52, 152, 219, 0.3);
+}
+
+.update {
+    background: rgba(241, 196, 15, 0.3);
+}
+
+.delete {
+    background: rgba(231, 76, 60, 0.3);
+}
+
+/* Input and Button Styles */
+input,
+select {
+    padding: 8px;
+    width: 70%;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 12px;
+    background: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #27ae60;
+}
+/* Read Section List - Fix Overlapping */
+#item-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#item-list li {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-align: left;
+}
