@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MongoDB CRUD Operations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>MongoDB CRUD Operations</h1>
+        <p class="subtitle">Perform Create, Read, Update, and Delete operations on MongoDB.</p>
+
+        <!-- CREATE Section -->
+        <div class="section create">
+            <h2>📝 Create (Add) an Item</h2>
+            <p>Enter an item name below and click "Add" to store it in MongoDB.</p>
+            <input type="text" id="item-input" placeholder="Example: Laptop, Mobile, Book">
+            <button onclick="addItem()">Add Item</button>
+        </div>
+
+        <!-- READ Section -->
+        <div class="section read">
+            <h2>📖 Read (View) Items</h2>
+            <p>All items stored in MongoDB are displayed below.</p>
+            <ul id="item-list"></ul>
+        </div>
+
+        <!-- UPDATE Section -->
+        <div class="section update">
+            <h2>✏️ Update an Item</h2>
+            <p>Select an item from the list and update its name.</p>
+            <select id="update-select"></select><br><br>
+            <input type="text" id="update-input" placeholder="Enter new name">
+            <button onclick="updateItem()">Update</button>
+        </div>
+
+        <!-- DELETE Section -->
+        <div class="section delete">
+            <h2>🗑️ Delete an Item</h2>
+            <p>Select an item from the list to delete it.</p>
+            <select id="delete-select"></select>
+            <button onclick="deleteItem()">Delete</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
